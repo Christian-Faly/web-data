@@ -1,0 +1,32 @@
+﻿CREATE TABLE w_hygiene AS 
+SELECT * FROM dblink('dbname=dbseam user=postgres password=vony', 
+'SELECT * FROM hygiene')
+AS t(
+idhyg Integer,
+nihyg varchar,
+niveau varchar,
+idp Integer,
+province varchar,
+idr Integer,
+region varchar,
+idd Integer,
+district varchar,
+idc Integer,
+commune varchar,
+popurbcom Integer,
+poptotcom Integer,
+idf Integer,
+fokontany varchar,
+idl Integer,
+localites varchar,
+nbdlm Integer,
+valdreau varchar,
+datvaldreau Date,
+valsig varchar,
+datvalsig Date,
+valcentral varchar,
+datvalcentral Date,
+datecolldebhyg Date,
+datecollhyg Date,
+idacthyg Integer
+)

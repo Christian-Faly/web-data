@@ -1,0 +1,136 @@
+Structure du dossier pour le volume WINDOWS
+Le num‚ro de s‚rie du volume est DCF2-3357
+C:.
+³   .htaccess
+³   index.html
+³   LISTE
+³   
+ÃÄÄÄcache
+³       .htaccess
+³       index.html
+³       
+ÃÄÄÄconfig
+³       autoload.php
+³       config.php
+³       constants.php
+³       database.php
+³       doctypes.php
+³       foreign_chars.php
+³       hooks.php
+³       index.html
+³       migration.php
+³       mimes.php
+³       profiler.php
+³       routes.php
+³       smileys.php
+³       user_agents.php
+³       
+ÃÄÄÄcontrollers
+³       ajax.php
+³       ajax0.php
+³       assist_requete.php
+³       assist_requete0.php
+³       assist_requete1.php
+³       index.html
+³       req_pre.php
+³       req_pre0.php
+³       req_predefinie.php
+³       seam.php
+³       site.php
+³       tb.php
+³       welcome.php
+³       
+ÃÄÄÄcore
+³       index.html
+³       
+ÃÄÄÄerrors
+³       error_404.php
+³       error_db.php
+³       error_general.php
+³       error_php.php
+³       index.html
+³       
+ÃÄÄÄerrors1
+³       error_404.php
+³       error_db.php
+³       error_general.php
+³       error_php.php
+³       index.html
+³       
+ÃÄÄÄhelpers
+³       index.html
+³       
+ÃÄÄÄhooks
+³       index.html
+³       
+ÃÄÄÄlanguage
+³   ÀÄÄÄenglish
+³           index.html
+³           
+ÃÄÄÄlibraries
+³       index.html
+³       
+ÃÄÄÄlogs
+³       index.html
+³       
+ÃÄÄÄmodels
+³       get_arbre.php
+³       get_db - Copie.php
+³       get_db.php
+³       index.html
+³       maj_entrepot.php
+³       manip_fichier.php
+³       model_get.php
+³       utilitaire.php
+³       
+ÃÄÄÄpg_sql
+ÃÄÄÄthird_party
+³       index.html
+³       
+ÀÄÄÄviews
+    ³   content_Info_server.php
+    ³   index.html
+    ³   predef_categorie.php
+    ³   view_login.php
+    ³   
+    ÃÄÄÄajax
+    ³       ch_req.php
+    ³       ch_req0.php
+    ³       rech_p.php
+    ³       sql_p.php
+    ³       sql_p0.php
+    ³       tableau.php
+    ³       
+    ÃÄÄÄassistant
+    ³       liste_enr.php
+    ³       liste_enr0.php
+    ³       view_dictiodonnee.php
+    ³       view_requetecroise.php
+    ³       view_SQL.php
+    ³       view_table.php
+    ³       
+    ÃÄÄÄpredefinie
+    ³       list_requete.php
+    ³       list_requete0.php
+    ³       list_requete_corrige.php
+    ³       view_categorie.php
+    ³       view_listeRequete.php
+    ³       
+    ÃÄÄÄtb
+    ³       view_annexe1D - Copie.php
+    ³       view_annexe1D.php
+    ³       view_selection.php
+    ³       
+    ÀÄÄÄview_site
+            accor.php
+            content_contact.php
+            content_home.php
+            footer.php
+            footer0.php
+            header.php
+            nav.php
+            view_carte.php
+            view_carte_gire.php
+            view_list.php
+            view_list0.php
+            

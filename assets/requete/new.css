@@ -1,0 +1,184 @@
+div.selectBox{position: relative; display: inline-block; cursor: default; text-align: left; line-height: 30px; clear: both; color: rgb(114, 97, 97);}
+			span.selected{width: 62%; text-indent: 10px; border: 1px solid rgb(233, 233, 233); border-right: none; border-top-left-radius: 5px; border-bottom-left-radius: 5px; background: #f6f6f6; overflow: hidden;font-family: Arial, sans-serif;font-size: 12px;font-weight: bold;
+                            background: #ffffff;
+                            background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+                            background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
+                            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f3f3f3), color-stop(51%,#ededed), color-stop(100%,#ffffff));
+                            background: -webkit-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+                            background: -o-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+                            background: -ms-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+                            background: linear-gradient(to bottom, #ffffff 0%,#ffffff 50%,#ffffff 51%,#ffffff 100%);
+                            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+                        }
+			span.selectArrow{width: 38%; border: 1px solid #60abf8; border-top-right-radius: 5px; border-bottom-right-radius: 5px; text-align: center; font-size: 12px; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none; background: #4096ee; color: #fff;}
+			span.selectArrow,span.selected{position: relative; float: left; height: 24px; z-index: 1;}
+			ul.selectOptions{position: absolute; top: 28px; left: 0; width: 198px; border: 1px solid #ccc; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; overflow: hidden; background: rgb(250, 250, 250); padding-top: 2px; display: none;margin: 0;list-style: none inside none;padding-left: 0;}
+			li.selectOption{display: block; line-height: 20px; padding: 5px 0 5px 10px; font-size: 12px; font-weight: bold; font-family: arial, sans-serif;list-style: none;margin: 0}
+			li.selectOption:hover{color: #f6f6f6;background: #4096ee;}
+
+
+input[type="radio"] {
+  opacity: 0;
+  position: absolute;
+}
+
+/* Matches the direct descendant of a label preceded by a 
+   radio button */
+input[type="radio"] + label > span {
+  position: relative;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #bcbcbc;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  margin: 0 1em 0 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Matches the direct descendant of a label preceded by a 
+   checked radio button */
+input[type="radio"]:checked + label > span {
+  background: linear-gradient(#a0e5f8, #75c7dc);
+  background: -webkit-linear-gradient(#a0e5f8, #75c7dc);
+  border-color: #41a6bf;
+  box-shadow: 0px 1px 2px rgba(65, 166, 191, 0.9) inset;
+}
+
+/* Matches a span contained by the direct descendant 
+   of a label preceded by a checked radio button */
+input[type="radio"]:checked + label > span span {
+   display: inline-block;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    border-radius: 5px;
+    border: none;
+    background: #167c95;
+    box-shadow: 0px 1px rgba(255, 255, 255, 0.3);
+}
+.seldef {
+  border: 1px solid #111;
+  border-radius:5px;
+  background: transparent;
+  width: 150px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../img/portlet-collapse-icon.png) 96% / 10px no-repeat #fefefe;
+}
+
+
+.navbar-nav > li > input { margin-top: 8px !important; }
+		
+#example thead tr th{
+  border-bottom: 2px solid black;
+  border-top: 1px solid black;
+  margin: 0px;
+  padding: 2px;
+  background-color: #ccccdd;
+}
+#example tr {
+  
+  color: black;
+  font-size:12px;				
+}		
+.flatTable {
+  width: 100%;
+  min-width: 500px;
+  border-collapse: collapse;
+  color: #6b6b6b;
+}
+.flatTable tr {
+  background: #F5F5F5;
+  border-bottom: rgba(0, 0, 0, 0.03) 1px solid;
+}
+.flatTable td {
+  text-align:center;
+  box-sizing: border-box;
+  padding-left: 30px;
+}
+.flatTable .titleTr {
+  height: 60px;
+  color: #f6f3f7;
+  background: #859346;
+  border: 0px solid;
+}
+.flatTable .headingTr {
+  height: 30px;
+  background: rgb(195, 224, 121);
+  color: #797979;
+  font-size: 8pt;
+  border: 0px solid;
+}
+
+#b_rechA{
+  background: rgb(195, 224, 121);
+  border: solid 1px #ccc;
+  padding: 0.5em 1em;
+  line-height: 1em;
+  border-radius: 4px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+  height: 20px;
+}
+
+#ancre{
+  margin-bottom: 15px;
+}
+
+#assist_req_corps  #ancre {
+  margin-top: 10px;
+}
+
+#sel_req{
+  height: 88px;
+}
+
+
+/*target Internet Explorer 9 and Internet Explorer 10:*/
+
+@media screen and (min-width: 0\0) {
+  .seldef {
+    background: none;
+    padding: 5px;
+  }
+}
+
+
+/* ---------------------------------------------- Form Submit and Next buttons ---------------------------------------------- */	
+	
+	div.styled,
+	button, 
+	input[type="file"]:after {
+		background: white url(../img/formelements-select.png) no-repeat center right;
+		-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2); 
+		box-shadow: 0 1px 3px rgba(0,0,0,0.2);}	
+
+	input[type="submit"], 
+	input[type="button"],
+	button { 
+		padding:0.5em 1em; line-height:1em; cursor:pointer;
+		border-radius:4px; color:rgb(252, 252, 252); font-weight:bold; font-size:inherit;
+		border:solid 1px #ccc;	box-shadow:0 1px 5px rgba(0,0,0,0.2);
+    background-position: center bottom;
+    background: #e96b56;
+    /*height: 35px;*/
+  }
+		
+		/* Gradient Generator by : http://www.colorzilla.com/gradient-editor/ */
+		
+	input[type="submit"]:active, 
+	input[type="button"]:active,
+	button:active {-webkit-box-shadow: none; box-shadow:none;}
+		
+		/* IE7 needs you to change the background to transparent when using image background for submit buttons */	
+
+/*----------------------------------------------  Media Queries ----------------------------------------------  */
+

@@ -1,0 +1,186 @@
+
+footer{
+	width:100%;
+	min-height:50px;    
+	background-color: #9d9fdb; /* This color gets inverted color or you can add navbar inverse class in html */
+}
+
+.ch-grid {
+	display: block;
+}
+
+.ch-grid li {
+	display: inline-block;
+}
+
+.bouton a {
+	display:block;
+	width:120px;
+	height: 120px;
+	border-radius: 50%;	
+
+	-webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -ms-filter: blur(5px);
+  -o-filter: blur(5px);
+  filter: blur(5px);
+	
+	-webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.bouton a:hover {
+	-webkit-filter: blur(0);
+  -moz-filter: blur(0);
+  -ms-filter: blur(0);
+  -o-filter: blur(0);
+  filter: blur(0);
+	
+	-webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+/*Images background*/
+.ch-img-1 { 
+	background-image: url(../images/1.jpg);
+}
+
+.ch-img-2 { 
+	background-image: url(../images/2.jpg);
+}
+
+.ch-img-3 { 
+	background-image: url(../images/3.jpg);
+}
+
+.ch-img-4 { 
+	background-image: url(../images/4.jpg);
+}
+
+.ch-img-5 { 
+	background-image: url(../images/5.jpg);
+}
+
+.ch-img-6 { 
+	background-image: url(../images/6.jpg);
+}
+
+.ch-img-7 { 
+	background-image: url(../images/7.jpg);
+}
+
+/*Modal crit*/
+body .modal-crit {
+	width: 50%; /* desired relative width */
+  left: 0%; /* (100%-width)/2 */
+  /* place center */
+  margin-left:auto;
+  margin-right:auto; 
+}
+
+/*Modal login*/
+body .modal-login {
+	width: 30%; /* desired relative width */
+  left: 0%; /* (100%-width)/2 */
+  /* place center */
+  margin-left:auto;
+  margin-right:auto; 
+}
+
+body .modal-inscri {
+	width: 70%; /* desired relative width */
+  left: 0%; /* (100%-width)/2 */
+  /* place center */
+  margin-left:auto;
+  margin-right:auto;
+	font-size: 12px;
+}
+
+
+ .modal-header, .close {
+  background-color: #9d9fdb;
+  color:white !important;
+  text-align: center;
+  /*font-size: 30px;*/
+ }*/
+  .modal-footer {
+      background-color: #d6deee;
+ }
+ 
+ form label {
+    font-size: 12px;
+}
+
+form input, form textarea, form select {
+    margin-left: 0px;
+}
+
+.modal-body {padding: 5px}
+
+
+.modal-dialog {
+@media(min-width: $screen-sm-min){
+  width: 600px;
+  .container {
+    width: 590px;
+  }
+}
+
+@media(min-width: $screen-md-min){
+  width: 800px;
+  .container {
+    width: 790px;
+  }
+}
+
+@media(min-width: $screen-lg-min){
+  width: 1000px;
+  .container {
+    width: 990px;
+  }
+}
+}
+
+/*fieldset*/
+
+legend.scheduler-border {
+    width:inherit; /* Or auto */
+    padding:0 10px; /* To give a bit of padding on the left and right */
+    border-bottom:none;
+		font-size:14px;
+		font-weight: bold;
+}
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+.jumbotronCust{
+ padding: 15px;
+ margin-bottom: 15px;
+ font-size: 21px;
+ font-weight: 200;
+ line-height: 2.1428571435;
+ color: inherit;
+ background-color: #b0d6ff;
+} 
+
+.btn-success-cust {
+ background-color: #b0d6ff;
+} //button
+
+.btn-success-cust:hover {
+ background-color: #73b8ff; 
+} //hover
+.btn-custom {
+    .button-variant(#b0d6ff, #b0d6ff, #73b8ff);
+}
+ 

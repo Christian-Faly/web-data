@@ -1,0 +1,131 @@
+.container_page
+{
+	border			: 2px solid transparent ;
+	margin-left		: auto ;
+	margin-right	: auto ;
+}
+.block_temporaire
+{
+	text-align		: center ;
+	border			: 2px solid transparent ;
+	padding-left	: 0px ;
+	padding-right	: 0px ;
+}
+.visibilityHidden
+{
+	visibility		: hidden ;
+}
+.position_text_title
+{
+	text-align		: left ;
+	padding-left	: 0px ;
+	padding-right	: 0px ;
+	padding-top		:10px ;
+}
+
+.fieldset {
+	/* -webkit-border-radius	: 8px;
+	-moz-border-radius		: 8px; */
+	border-radius			: 8px;
+	border					: 2px solid grey ;
+}
+.styleLegend
+{
+	width			: auto ;
+}
+
+.coteacote{
+	float		: left ;
+}
+.alignementBlcok
+{
+	width 		: 45% ;
+	float		: left ;
+	margin-left	: 20px ;
+}
+.displayInlineBlock
+{
+	display 	: inline-block ;
+}
+.btnCircle
+{	
+	width			: 30px;
+	height			: 30px;
+	text-align		: center;
+	padding			: 6px 0;
+	font-size		: 12px;
+	line-height		: 1.42;
+	border-radius	: 15px;
+}
+.tableStyle
+{
+	margin-top		: 20px ;
+	border			: 1px solid grey ;
+	border-radius	: 10px;
+}
+.link_ajout
+{
+	margin-left		: 100px ;
+}
+.display_none_block
+{
+	display			: none ;
+}
+.divErreurStyle
+{
+	border-bottom-width	: 0px ; 
+	padding				: 5px ; 
+	margin-bottom		: 0px ;
+}
+.positionLabel
+{
+	padding-left	: 0px ;
+	padding-right	: 0px ;
+	padding-top		: 10px ;
+}
+.styleRowRight{
+	margin-left: 0px;
+}
+.textareaStyle{
+	border			: 1px solid grey;
+	border-radius	: 5px ;
+}
+.ajustementInfoActive{
+	
+}
+.ajoutProduit{
+	overflow-y		: auto ;
+	overflow-x		: hidden ; 
+	height			: 200px ;
+}
+.positionLabelBoue{
+	text-align		: left ;
+	margin-left		: 10px ;
+}
+.tailleCoteneurListe{
+	overflow-y		: auto ;
+	overflow-x		: hidden ; 
+	height			: 400px ;
+}
+.styleConteneurErreuImport{
+	
+}
+.tableErreur{
+	width			: 586px; 
+	margin-left		: 6px
+}
+/*.fsStyle {
+font-family: Verdana, Arial, sans-serif;
+font-size: small;
+font-weight: normal;
+border: 1px solid #999999;
+padding: 4px;
+margin: 5px;
+}
+.legendStyle {
+font-size: 90%;
+color: #888888;
+background-color: transparent;
+font-weight: bold;
+}*/
+
